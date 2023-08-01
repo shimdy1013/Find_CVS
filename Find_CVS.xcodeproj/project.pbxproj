@@ -57,6 +57,9 @@
 		122E6D382A7285D2003786B8 /* LocationInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E6D362A7285D2003786B8 /* LocationInformationViewController.swift */; };
 		122E6D392A7285D2003786B8 /* LocationInformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122E6D372A7285D2003786B8 /* LocationInformationViewModel.swift */; };
 		122E6D3C2A72861F003786B8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 122E6D3B2A72861F003786B8 /* SnapKit */; };
+		129CA88E2A790DF000AAF52F /* DetailListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129CA88D2A790DF000AAF52F /* DetailListCell.swift */; };
+		12B11A822A79113D00335E4B /* DetailListBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B11A812A79113D00335E4B /* DetailListBackgroundView.swift */; };
+		12B11A842A79114900335E4B /* DetailListBackgroundViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B11A832A79114900335E4B /* DetailListBackgroundViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +119,9 @@
 		122E6D2F2A728472003786B8 /* LocationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
 		122E6D362A7285D2003786B8 /* LocationInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationInformationViewController.swift; sourceTree = "<group>"; };
 		122E6D372A7285D2003786B8 /* LocationInformationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationInformationViewModel.swift; sourceTree = "<group>"; };
+		129CA88D2A790DF000AAF52F /* DetailListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCell.swift; sourceTree = "<group>"; };
+		12B11A812A79113D00335E4B /* DetailListBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListBackgroundView.swift; sourceTree = "<group>"; };
+		12B11A832A79114900335E4B /* DetailListBackgroundViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListBackgroundViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,11 +168,11 @@
 		122E681C2A7279E1003786B8 /* Find_CVS */ = {
 			isa = PBXGroup;
 			children = (
-				122E6D352A7285D2003786B8 /* Presentation */,
-				122E6D2B2A728472003786B8 /* Entities */,
 				122E6AA72A727DC3003786B8 /* BridgingHeader.h */,
 				122E681D2A7279E1003786B8 /* AppDelegate.swift */,
 				122E681F2A7279E1003786B8 /* SceneDelegate.swift */,
+				122E6D352A7285D2003786B8 /* Presentation */,
+				122E6D2B2A728472003786B8 /* Entities */,
 				122E68262A7279E3003786B8 /* Assets.xcassets */,
 				122E68282A7279E3003786B8 /* LaunchScreen.storyboard */,
 				122E682B2A7279E3003786B8 /* Info.plist */,
@@ -265,6 +271,9 @@
 			children = (
 				122E6D362A7285D2003786B8 /* LocationInformationViewController.swift */,
 				122E6D372A7285D2003786B8 /* LocationInformationViewModel.swift */,
+				129CA88D2A790DF000AAF52F /* DetailListCell.swift */,
+				12B11A812A79113D00335E4B /* DetailListBackgroundView.swift */,
+				12B11A832A79114900335E4B /* DetailListBackgroundViewModel.swift */,
 			);
 			name = Presentation;
 			path = ../../FindCVS_crash/FindCVS/Presentation;
@@ -379,9 +388,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				122E6D392A7285D2003786B8 /* LocationInformationViewModel.swift in Sources */,
+				12B11A822A79113D00335E4B /* DetailListBackgroundView.swift in Sources */,
+				12B11A842A79114900335E4B /* DetailListBackgroundViewModel.swift in Sources */,
 				122E681E2A7279E1003786B8 /* AppDelegate.swift in Sources */,
 				122E6D382A7285D2003786B8 /* LocationInformationViewController.swift in Sources */,
 				122E68202A7279E1003786B8 /* SceneDelegate.swift in Sources */,
+				129CA88E2A790DF000AAF52F /* DetailListCell.swift in Sources */,
 				122E6D312A728472003786B8 /* DetailListCellData.swift in Sources */,
 				122E6D332A728472003786B8 /* LocationData.swift in Sources */,
 				122E6D302A728472003786B8 /* MTMapViewError.swift in Sources */,
