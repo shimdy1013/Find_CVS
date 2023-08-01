@@ -1,15 +1,8 @@
 //
 //  DetailListCellData.swift
-//  FindCVS
+//  Find_CVS
 //
-//  Created by 심두용 on 2023/07/15.
+//  Created by 심두용 on 2023/08/01.
 //
 
 import Foundation
-
-struct DetailListCellData {
-    let placeName: String
-    let address: String
-    let distance: String
-    let point: MTMapPoint
-}

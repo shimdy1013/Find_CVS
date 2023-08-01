@@ -1,12 +1,8 @@
 //
 //  LocationData.swift
-//  FindCVS
+//  Find_CVS
 //
-//  Created by 심두용 on 2023/07/15.
+//  Created by 심두용 on 2023/08/01.
 //
 
 import Foundation
-
-struct LocationData: Decodable {
-    let document: [KLDocument]
-}
